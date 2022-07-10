@@ -1,0 +1,8 @@
+<div *ngFor="let jobOffer of jobOffers">
+  <mat-card>{{ jobOffer.name }}</mat-card>
+</div>
+
+<mat-button-toggle (click)="showJobs()">
+  Load jobs
+</mat-button-toggle>
+
